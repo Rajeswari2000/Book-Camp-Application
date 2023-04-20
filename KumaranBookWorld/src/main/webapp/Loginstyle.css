@@ -1,0 +1,122 @@
+
+
+
+/********* Sign in and sign up forms ********/
+#formsignUp,#form{
+    width:340px;
+    margin:15vh auto 0 auto;
+    margin-top: 45px;
+    background-color: rgb(99, 155, 161);
+    /* border-radius: 15px; */
+    padding: 30px;
+    /* margin-left: 110px;
+    margin-top: 110px; */
+    border-radius: 5px;
+    
+
+}
+
+#form h1,#formsignUp h1{
+    text-align: center;
+    color: black;
+    font-family:'Times New Roman', Times, serif
+}
+
+#formsignUp button,#form button{
+    /* background-color: aliceblue;
+    color: rgb(70, 70, 158); */
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    margin:20px 0px;
+    cursor:pointer;
+    font-size: 20px;
+    width:100%
+}
+
+#formsignUp button:hover , #form button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+#buttonsubmit{
+    color: rgb(70, 70, 158);
+    font-size:30px;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif
+}
+
+.input-group{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: black;
+    font-size:17px;
+    font-weight: bolder;
+}
+.input-group input{
+     border-radius: 10px;
+     font-size:13px;
+     margin-top: 5px;
+     padding:10px;
+     border:1px solid rgba(34,193,195);
+
+}
+
+.input-group.error{
+	
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight:lighter;
+}
+
+
+/* class success will be added*/
+.input-group.success input{
+    border-color: green;
+}
+
+/* class error will be added */
+.input-group.error input{
+    border-color: red;
+}
+
+
+/* --------------Sign up link in login ----------- */
+
+#signUpText{
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 5px; 
+    margin-left: 40px;
+}
+
+#clickhere{
+    font-weight: bold;
+    color: red;
+    margin-left: 75px;
+    cursor: pointer;
+}
+#clickhere:hover{
+    text-decoration: underline;  
+}
+
+
+/*-------------- close sign in and sign up ----------------- */
+
+.fa-solid fa-xmark {
+	margin-left:555px;
+	margin-top:5px;
+	
+}
+#closeSignIn,#closeSignUp{
+    margin-left:265px;
+	margin-top:5px;
+	width:11px;
+	height:11px;
+}
+
